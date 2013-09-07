@@ -2,11 +2,12 @@
 
 // base path, that will be used to resolve files and exclude
 basePath = '../';      //in this example base is project root
-
+//adding framewrok
+frameworks = ['jasmine'];
 // list of files / patterns to load in the browser
 files = [
-  JASMINE,
-  JASMINE_ADAPTER,
+  //JASMINE,
+  //JASMINE_ADAPTER,
   'app/lib/angular.js',
   'test/lib/angular-mocks.js',
   'app/scripts/**/*.js',
